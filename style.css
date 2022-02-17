@@ -1,0 +1,204 @@
+.title{
+    background-color: black;
+    color: purple;
+    font-size:xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+/* CLOCK*/
+
+.clock-wrapper{
+    background-color:purple;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+.clock {
+    font-size: 270px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 50px;
+    margin: 0px;
+}
+
+#date {
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 60px;
+    margin: 0px;
+}
+
+/* COUNTDOWN*/
+
+.countdown-wrapper{
+    background-color: black;
+    color: purple;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.countdown {
+    font-size: 50px;
+    align-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding-top: 80px;
+}
+
+.timer {
+    font-size: 150px;
+    align-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+input[type="datetime-local" i] {
+    font-family: monospace;
+    cursor: default;
+    margin-bottom: 50px;
+    margin-left: 85px;
+    padding: 15px;
+}
+.date-button{
+    color: #000000e8;
+    cursor: pointer;
+    background: #9c27b08a;
+    font-size: 25px;
+    padding: 15px;
+    border: none;
+    margin: 10px;
+ }
+
+/*STOPPUHR*/
+.stoppuhr {
+    background-color:purple;
+    color: black;
+    text-align: center;
+    margin: 0px;
+  }
+  
+.stoppuhr-title {  
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 70px;
+    margin-top: 0px;
+    margin: 0px;
+}
+ .zeit {
+    font-size: 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.counter {
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
+    padding-bottom: 50px;
+}
+  
+button {
+    cursor: pointer;
+    background: transparent;
+    padding: 0;
+    border: none;
+    margin: 0;
+    outline: none;
+}
+  
+.buttonPlay{
+    display: flex;
+    height: 50px;
+    width: 50px;
+}
+
+.buttonPause{
+    display: flex;
+    height: 50px;
+    width: 50px;
+}
+
+.buttonReset{
+    display: flex;
+    height: 50px;
+    width: 50px;
+}
+
+ /* 
+  #playButton {
+    display: flex;  
+    height: 120px;
+    width: 180px;
+    
+  }
+
+
+}
+
+  #pauseButton {
+    display: none;
+    height: 120px;
+    
+  }
+
+   #resetButton{ 
+    display: block;
+    margin-left: 5%;
+    height: 120px;  
+}
+  /* 
+  .stopuhr {
+    display: grid;
+    justify-items: center;
+    grid-row-gap: 23px;
+    width: 100%;
+    padding-top: 25px;
+  }
+  
+  .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    height: 130px;
+    width: 500px;
+  
+    border: 6px solid;
+    border-radius: 10%;
+    color: darkgreen;
+  }
+  
+  .zeit {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 60px;
+    color: darkcyan;
+  }
+  
+  .blau {
+    font-weight: 900;
+  
+    color: darkcyan;
+    text-shadow: darkcyan;
+  }
+  
+  
+
+
+
+
+/*
+.timer{
+    background-color:black ;
+    color: purple;
+    text-align: center;
+    border-radius: 20px;
+} */
